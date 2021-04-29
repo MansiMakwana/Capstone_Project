@@ -19,4 +19,11 @@ public class StudentController {
     return null;
     }
 
+@DeleteMapping
+public Student DeleteStudent(@RequestBody Student student)
+{
+	return null;
+}
+
+
 }
